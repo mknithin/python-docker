@@ -9,6 +9,7 @@ def hello_world():
     return "Hello, Docker!"
 
 
+# added some additional changes right here
 @app.route("/widgets")
 def get_widgets():
     mydb = mysql.connector.connect(
