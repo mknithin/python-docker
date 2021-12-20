@@ -10,6 +10,7 @@ def hello_world():
 
 
 # added some additional changes right here
+# this is change no 2
 @app.route("/widgets")
 def get_widgets():
     mydb = mysql.connector.connect(
